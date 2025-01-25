@@ -1,0 +1,10 @@
+  File "/home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/controller.py", line 2
+    import rclpy.node import Node
+                      ^^^^^^
+SyntaxError: invalid syntax
+
+  File "/home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/vff.py", line 2
+    import rclpy.node import Node
+                      ^^^^^^
+SyntaxError: invalid syntax
+

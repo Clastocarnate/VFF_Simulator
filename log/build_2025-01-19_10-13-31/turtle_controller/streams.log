@@ -1,0 +1,27 @@
+[0.396s] Invoking command in '/home/ubuntu/Documents/turtle_ws/turtle_controller': PYTHONPATH=/home/ubuntu/Documents/turtle_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_controller build --build-base /home/ubuntu/Documents/turtle_ws/build/turtle_controller/build install --record /home/ubuntu/Documents/turtle_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
+[0.567s] running egg_info
+[0.568s] writing ../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[0.568s] writing dependency_links to ../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[0.568s] writing entry points to ../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[0.568s] writing requirements to ../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[0.568s] writing top-level names to ../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[0.569s] reading manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.570s] writing manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.570s] running build
+[0.570s] running build_py
+[0.570s] running install
+[0.570s] running install_lib
+[0.571s] byte-compiling /home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/vff.py to vff.cpython-310.pyc
+[0.571s] running install_data
+[0.571s] running install_egg_info
+[0.571s]   File "/home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/vff.py", line 2
+[0.571s]     import rclpy.node import Node
+[0.571s]                       ^^^^^^
+[0.571s] SyntaxError: invalid syntax
+[0.572s] 
+[0.572s] removing '/home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.572s] Copying ../build/turtle_controller/turtle_controller.egg-info to /home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/python3.10/site-packages/turtle_controller-0.0.0-py3.10.egg-info
+[0.573s] running install_scripts
+[0.594s] Installing controller script to /home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/turtle_controller
+[0.594s] writing list of installed files to '/home/ubuntu/Documents/turtle_ws/build/turtle_controller/install.log'
+[0.606s] Invoked command in '/home/ubuntu/Documents/turtle_ws/turtle_controller' returned '0': PYTHONPATH=/home/ubuntu/Documents/turtle_ws/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/Documents/turtle_ws/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_controller build --build-base /home/ubuntu/Documents/turtle_ws/build/turtle_controller/build install --record /home/ubuntu/Documents/turtle_ws/build/turtle_controller/install.log --single-version-externally-managed install_data
