@@ -1,0 +1,4 @@
+source;share/vff_turtle_bringup/local_setup.bash
+source;share/vff_turtle_bringup/local_setup.dsv
+source;share/vff_turtle_bringup/local_setup.sh
+source;share/vff_turtle_bringup/local_setup.zsh

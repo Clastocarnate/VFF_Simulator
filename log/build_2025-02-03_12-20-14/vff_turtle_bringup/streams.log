@@ -1,0 +1,20 @@
+[0.144s] Invoking command in '/home/ubuntu/Documents/turtle_ws/build/vff_turtle_bringup': CMAKE_PREFIX_PATH=/home/ubuntu/Documents/turtle_ws/install/turtle_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/turtle_ws/src/vff_turtle_bringup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/turtle_ws/install/vff_turtle_bringup
+[0.321s] -- The C compiler identification is GNU 11.4.0
+[0.431s] -- The CXX compiler identification is GNU 11.4.0
+[0.443s] -- Detecting C compiler ABI info
+[0.503s] -- Detecting C compiler ABI info - done
+[0.509s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.509s] -- Detecting C compile features
+[0.514s] -- Detecting C compile features - done
+[0.518s] -- Detecting CXX compiler ABI info
+[0.570s] -- Detecting CXX compiler ABI info - done
+[0.576s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.576s] -- Detecting CXX compile features
+[0.576s] -- Detecting CXX compile features - done
+[0.577s] [31mCMake Error at CMakeLists.txt:13 (ament_package):
+[0.577s]   Unknown CMake command "ament_package".
+[0.577s] 
+[0.577s] [0m
+[0.577s] -- Configuring incomplete, errors occurred!
+[0.577s] See also "/home/ubuntu/Documents/turtle_ws/build/vff_turtle_bringup/CMakeFiles/CMakeOutput.log".
+[0.580s] Invoked command in '/home/ubuntu/Documents/turtle_ws/build/vff_turtle_bringup' returned '1': CMAKE_PREFIX_PATH=/home/ubuntu/Documents/turtle_ws/install/turtle_controller:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/turtle_ws/src/vff_turtle_bringup -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/turtle_ws/install/vff_turtle_bringup

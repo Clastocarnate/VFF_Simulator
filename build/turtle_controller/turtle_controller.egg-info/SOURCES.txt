@@ -14,3 +14,4 @@ test/test_flake8.py
 test/test_pep257.py
 turtle_controller/__init__.py
 turtle_controller/controller.py
+turtle_controller/vff.py
