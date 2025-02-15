@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
 		'controller = turtle_controller.controller:main',
+        'turtle_vff_controller = turtle_controller.turtle_vff_controller:main',
         ],
     },
 )

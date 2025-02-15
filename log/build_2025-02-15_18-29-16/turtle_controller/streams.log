@@ -1,0 +1,44 @@
+[0.495s] Invoking command in '/home/clasto/Documents/VFF_Simulator/turtle_controller': PYTHONPATH=/home/clasto/Documents/VFF_Simulator/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_controller build --build-base /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build install --record /home/clasto/Documents/VFF_Simulator/build/turtle_controller/install.log --single-version-externally-managed install_data
+[0.690s] running egg_info
+[0.691s] creating ../build/turtle_controller/turtle_controller.egg-info
+[0.691s] writing ../build/turtle_controller/turtle_controller.egg-info/PKG-INFO
+[0.691s] writing dependency_links to ../build/turtle_controller/turtle_controller.egg-info/dependency_links.txt
+[0.691s] writing entry points to ../build/turtle_controller/turtle_controller.egg-info/entry_points.txt
+[0.691s] writing requirements to ../build/turtle_controller/turtle_controller.egg-info/requires.txt
+[0.691s] writing top-level names to ../build/turtle_controller/turtle_controller.egg-info/top_level.txt
+[0.691s] writing manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.692s] reading manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.693s] writing manifest file '../build/turtle_controller/turtle_controller.egg-info/SOURCES.txt'
+[0.745s] running build
+[0.745s] running build_py
+[0.745s] creating /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build
+[0.745s] creating /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib
+[0.745s] creating /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller
+[0.745s] copying turtle_controller/turtle_vff_controller.py -> /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller
+[0.746s] copying turtle_controller/__init__.py -> /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller
+[0.746s] copying turtle_controller/vff.py -> /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller
+[0.746s] copying turtle_controller/controller.py -> /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller
+[0.746s] running install
+[0.746s] running install_lib
+[0.747s] creating /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.747s] copying /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller/turtle_vff_controller.py -> /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.747s] copying /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller/__init__.py -> /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.747s] copying /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller/vff.py -> /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.748s] copying /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build/lib/turtle_controller/controller.py -> /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller
+[0.748s] byte-compiling /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/turtle_vff_controller.py to turtle_vff_controller.cpython-310.pyc
+[0.750s] byte-compiling /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/__init__.py to __init__.cpython-310.pyc
+[0.750s] byte-compiling /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/vff.py to vff.cpython-310.pyc
+[0.751s] byte-compiling /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller/controller.py to controller.cpython-310.pyc
+[0.752s] running install_data
+[0.752s] creating /home/clasto/Documents/VFF_Simulator/install/turtle_controller/share/ament_index
+[0.752s] creating /home/clasto/Documents/VFF_Simulator/install/turtle_controller/share/ament_index/resource_index
+[0.752s] creating /home/clasto/Documents/VFF_Simulator/install/turtle_controller/share/ament_index/resource_index/packages
+[0.752s] copying resource/turtle_controller -> /home/clasto/Documents/VFF_Simulator/install/turtle_controller/share/ament_index/resource_index/packages
+[0.752s] copying package.xml -> /home/clasto/Documents/VFF_Simulator/install/turtle_controller/share/turtle_controller
+[0.752s] running install_egg_info
+[0.754s] Copying ../build/turtle_controller/turtle_controller.egg-info to /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages/turtle_controller-0.0.0-py3.10.egg-info
+[0.755s] running install_scripts
+[0.778s] Installing controller script to /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/turtle_controller
+[0.778s] Installing turtle_vff_controller script to /home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/turtle_controller
+[0.778s] writing list of installed files to '/home/clasto/Documents/VFF_Simulator/build/turtle_controller/install.log'
+[0.796s] Invoked command in '/home/clasto/Documents/VFF_Simulator/turtle_controller' returned '0': PYTHONPATH=/home/clasto/Documents/VFF_Simulator/build/turtle_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/clasto/Documents/VFF_Simulator/install/turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_controller build --build-base /home/clasto/Documents/VFF_Simulator/build/turtle_controller/build install --record /home/clasto/Documents/VFF_Simulator/build/turtle_controller/install.log --single-version-externally-managed install_data

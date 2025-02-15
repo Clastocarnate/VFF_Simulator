@@ -13,24 +13,18 @@ def generate_launch_description():
             output='screen'
         ),
 
-        # Spawn the bot (2.0, 2.0)
+        # Spawn the goal turtle (top right corner)
         ExecuteProcess(
             cmd=['ros2', 'service', 'call', '/spawn', 'turtlesim/srv/Spawn',
-                 '{x: 2.0, y: 2.0, theta: 0.0, name: "bot"}'],
+                 '{x: 9.0, y: 9.0, theta: 0.0, name: "goal"}'],
             output='screen'
         ),
 
-        # Spawn the goal (8.0, 8.0)
-        ExecuteProcess(
-            cmd=['ros2', 'service', 'call', '/spawn', 'turtlesim/srv/Spawn',
-                 '{x: 8.0, y: 8.0, theta: 0.0, name: "goal"}'],
-            output='screen'
-        ),
-
-        # Spawn the obstacle (should be between bot and goal, e.g., 5.0, 5.0)
-        ExecuteProcess(
-            cmd=['ros2', 'service', 'call', '/spawn', 'turtlesim/srv/Spawn',
-                 '{x: 5.0, y: 5.0, theta: 0.0, name: "obstacle"}'],
+        # Launch the Python node to handle turtle spawning and movement
+        Node(
+            package='turtle_controller',  # Ensure this package is created and contains the script
+            executable='turtle_vff_controller.py',
+            name='turtle_vff_controller',
             output='screen'
         ),
     ])
