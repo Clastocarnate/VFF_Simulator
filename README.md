@@ -6,9 +6,10 @@ This project demonstrates obstacle avoidance in ROS 2 using the Turtlesim packag
 
 Watch the demo video below to see how to clone, build, and run the project:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/b_KnmKoNRp0" frameborder="0" allowfullscreen></iframe>
-
-
+<video width="640" height="360" controls>
+  <source src="videos/demo_output.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## Prerequisites
