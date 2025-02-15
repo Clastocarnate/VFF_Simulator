@@ -98,7 +98,3 @@ The obstacle avoidance algorithm is based on the Virtual Force Field (VFF) appro
 
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
