@@ -6,7 +6,7 @@ This project demonstrates obstacle avoidance in ROS 2 using the Turtlesim packag
 
 Watch the demo video below to see how to clone, build, and run the project:
 
-[![VFF Simulator Demo]](videos/demo_output.mov)
+[![VFF Simulator Demo]](https://youtu.be/b_KnmKoNRp0)
 
 
 
